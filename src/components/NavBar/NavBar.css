@@ -1,0 +1,56 @@
+.navBar {
+  min-height: 10vh;
+  width: 100%;
+  box-shadow: 0 -5px 10px #00d7d6;
+
+  background-color: #120459;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  position: fixed;
+}
+.logoName {
+  letter-spacing: 2px;
+  font-weight: 900;
+  font-size: 25px;
+  font-style: italic;
+  color: whitesmoke;
+  text-shadow: 0 0 10px #00d7d6;
+}
+
+.moreInfo {
+  display: flex;
+  gap: 80px;
+
+  list-style: none;
+}
+.moreInfo li {
+  letter-spacing: 6px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #00d7d6;
+
+  transition: 0.25s ease-in-out;
+}
+.moreInfo li:hover {
+  color: whitesmoke;
+  text-shadow: 0 0 20px hsl(317 100% 54%);
+  transform: scale(1.2);
+  font-weight: 900;
+}
+.burguer {
+  display: none;
+  background: transparent;
+  border: transparent;
+  font-size: 25px;
+}
+@media (max-width: 700px) {
+  .moreInfo {
+    display: none;
+  }
+  .burguer {
+    display: block;
+  }
+}
