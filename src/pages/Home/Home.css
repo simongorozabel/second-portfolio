@@ -3,9 +3,10 @@
   --clr-bg: hsl(323 21% 16%);
 }
 
-section {
+.home__section {
   width: 100%;
   min-height: 100vh;
+  overflow: hidden;
 }
 .header {
   display: flex;

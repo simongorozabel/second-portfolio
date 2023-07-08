@@ -5,7 +5,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <>
-      <section>
+      <section className="home__section">
         <header className="header">
           <div className="header__full">
             <h2>Now, Empower your Business.</h2>
