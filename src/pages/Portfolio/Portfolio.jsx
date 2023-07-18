@@ -27,7 +27,7 @@ const Portfolio = () => {
           <aside>
             {portfolio.images.map((img) => (
               <figure key={img}>
-                <img src={img} alt={portfolio.title} />
+                <img loading="lazy" src={img} alt={portfolio.title} />
               </figure>
             ))}
           </aside>
