@@ -16,7 +16,7 @@ const About = () => {
       </header>
 
       <article className="about__article">
-        <h3>Education</h3>
+        <h3>Experience</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
           porro facilis enim expedita quibusdam necessitatibus laborum rerum,
@@ -26,7 +26,7 @@ const About = () => {
       </article>
 
       <article className="about__article">
-        <h3>Experience</h3>
+        <h3>Education</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
           porro facilis enim expedita quibusdam necessitatibus laborum rerum,

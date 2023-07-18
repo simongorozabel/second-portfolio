@@ -10,12 +10,14 @@ import Home from "./pages/Home/Home";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
+import ErrorPage from "./errorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <div>Error Here!</div>,
+    errorElement: <ErrorPage />,
+
     children: [
       {
         path: "",
@@ -29,11 +31,12 @@ const router = createBrowserRouter([
         path: "/about",
         element: <About />,
       },
-      {
-        path: "/contact",
-        element: <Contact />,
-      },
     ],
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
+    errorElement: <ErrorPage />,
   },
 ]);
 

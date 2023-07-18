@@ -10,6 +10,7 @@
   justify-content: space-evenly;
 
   position: fixed;
+  z-index: 100;
 }
 .logoName {
   letter-spacing: 2px;
@@ -26,20 +27,7 @@
 
   list-style: none;
 }
-.moreInfo li {
-  letter-spacing: 6px;
-  font-weight: 700;
-  font-size: 20px;
-  color: #00d7d6;
 
-  transition: 0.25s ease-in-out;
-}
-.moreInfo li:hover {
-  color: whitesmoke;
-  text-shadow: 0 0 20px hsl(317 100% 54%);
-  transform: scale(1.2);
-  font-weight: 900;
-}
 .burguer {
   display: none;
   background: transparent;

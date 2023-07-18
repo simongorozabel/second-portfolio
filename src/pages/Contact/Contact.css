@@ -1,0 +1,16 @@
+.section__contact {
+  padding: 10vh 0;
+  height: 100vh;
+  padding: 10vh 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  border-radius: 5px;
+  width: 200px;
+}
+.message {
+  border-radius: 5px;
+}

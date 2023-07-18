@@ -8,15 +8,21 @@ const NavBar = () => {
         <h1 className="logoName">SIMON GOROZABEL</h1>
       </Link>
       <ul className="moreInfo">
-        <Link className="link" to={"/portfolio"}>
-          <li>Portfolio</li>
-        </Link>
-        <Link className="link" to={"/about"}>
-          <li>About</li>
-        </Link>
-        <Link className="link" to={"/contact"}>
-          <li>Contact</li>
-        </Link>
+        <li>
+          <Link to={"/portfolio"} className="link">
+            Portfolio
+          </Link>
+        </li>
+        <li>
+          <Link to={"/about"} className="link">
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to={"/contact"} className="link">
+            Contact
+          </Link>
+        </li>
       </ul>
       <button className="burguer">⬜</button>
     </nav>

@@ -11,8 +11,8 @@ const Home = () => {
             <h2>Now, Empower your Business.</h2>
             <h3>Approved Value.</h3>
 
-            <Link to={"/contact"} className="neon-button">
-              Get in touch
+            <Link to={"/portfolio"} className="neon-button">
+              Get to know
             </Link>
           </div>
 
